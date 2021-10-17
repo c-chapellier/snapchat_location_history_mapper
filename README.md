@@ -7,6 +7,7 @@ Put your json file on a map
 ## Setup
 
 Put your location_history.json at the root
+You can get this file on Snapchat with the data download thing
 
 ```sh
 .
