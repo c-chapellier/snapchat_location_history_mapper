@@ -1,9 +1,26 @@
-# Google Maps JavaScript API Sample Application
+# Snapchat location history mapper
 
-This sample is generated from @googlemaps/js-samples located at
-https://github.com/googlemaps/js-samples.
+Put your json file on a map
+
+![alt text](https://github.com/c-chapellier/snapchat_location_history_mapper/blob/main/assets/map.png)
 
 ## Setup
+
+Put your location_history.json at the root
+
+```sh
+.
+├── README.md
+├── 'location_history.json'
+├── src
+│   ├── index.html
+│   ├── index.ts
+│   └── style.css
+├── tsconfig.json
+├── ...
+```
+
+Then run
 
 ```sh
 npm i
@@ -15,8 +32,3 @@ The application is currently using the `.env` file to embed the API key in the
 HTML document. This is a temporary key and is not valid for production usage. It
 can be replaced by following these instructions to
 [get an api key](https://developers.google.com/maps/documentation/javascript/get-api-key).
-
-## Feedback
-
-For feedback related to this sample, please open a new issue on
-[GitHub](https://github.com/googlemaps/js-samples/issues).
